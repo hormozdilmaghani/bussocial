@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @busroute.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @busroute.description %>
+</p>
+
+<%= link_to 'Edit', edit_busroute_path(@busroute) %> |
+<%= link_to 'Back', busroutes_path %>
